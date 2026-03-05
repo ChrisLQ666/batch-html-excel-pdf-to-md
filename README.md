@@ -1,4 +1,27 @@
-# Doc2MD - Document to Markdown Converter
+# Doc2MD - Batch Document to Markdown Converter
+
+**Doc2MD** is a lightweight Python tool designed to batch convert various document formats (**HTML, Excel, CSV, PDF**) into clean **Markdown** files. It features a simple GUI for folder selection and automatically handles file encoding.
+
+[🇨🇳 中文说明 (Chinese Version)](#-中文说明)
+
+---
+
+## ✨ Features
+
+- **HTML**: Automatically detects encoding (UTF-8/GBK) and converts to Markdown while preserving basic structure.
+- **Excel**: Supports `.xlsx` and `.xls`. Automatically converts all sheets into Markdown tables.
+- **PDF**: Extracts text content and splits by page.
+- **CSV**: Converts CSV data into Markdown tables.
+- **Easy to Use**: Built-in GUI for selecting the target folder. No command-line arguments needed.
+
+## 🛠️ Installation
+
+1. Clone this repository or download the source code.
+2. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+https://github.com/ChrisLQ666/html-excel-pdf-to-md/tree/main
 
 这是一个简单高效的 Python 工具，支持批量将 HTML、Excel、CSV 和 PDF 文件转换为 Markdown 格式。
 
